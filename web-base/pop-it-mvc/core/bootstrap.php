@@ -12,8 +12,7 @@ spl_autoload_register(function ($className) {
             require_once $fileName;
         }
     }
-});
-//Функция, возвращающая массив всех настроек приложения
+});//Функция, возвращающая массив всех настроек приложения
 function getConfigs(string $path = DIR_CONFIG): array
 {
     $settings = [];
@@ -25,4 +24,5 @@ function getConfigs(string $path = DIR_CONFIG): array
     }
     return $settings;
 }
+require_once __DIR__ . '/../routes/web.php';
 return new Src\Application(new Src\Settings(getConfigs()));
