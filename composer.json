@@ -1,0 +1,14 @@
+{
+    "name": "x-dsir/php_practic_1",
+    "description": "php practic",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "XDsiroriginal",
+            "email": "anna.sawhenko1984@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
