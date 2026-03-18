@@ -1,6 +1,7 @@
 <?php
 namespace Src;
 use Error;
+
 class Application
 {
     private Settings $settings;

@@ -1,6 +1,7 @@
 <?php
 namespace Controller;
-use Src\View;
+use mvc\core\Src\View;
+
 class Site
 {
     public function index(): string
